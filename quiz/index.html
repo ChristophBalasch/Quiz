@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+<div class="background"></div>
+<div id="initial-screen">
+    <h1>Avatar – Der Herr der Elemente Quiz</h1>
+    <h2>Testen Sie Ihr Wissen über die Serie</h2>
+    <h2>Wählen Sie die Anzahl der Fragen</h2>
+    <select id="question-count">
+
+    </select>
+    <button id="start-quiz">Starten</button>
+</div>
+<div id="quiz-container" style="display: none;">
+    <div id="game-board"></div>
+    <div id="question-container">
+        <h2 id="question"></h2>
+        <div id="answers"></div>
+    </div>
+    <div id="feedback"></div>
+    <div id="summary-container" style="display: none;"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
